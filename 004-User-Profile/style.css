@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background: rgb(255,204,204);
+    background: radial-gradient(circle, rgba(255,204,204,1) 19%, rgba(255,237,210,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    background: white;
+    width: 486px;
+    height: 458px;
+    border-radius: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info {
+    text-align: center;
+    padding: 3em;
+}
+
+.card-info h2 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card-info p {
+    padding-inline: 50px;
+    font-weight: 500;
+}
+
+
+.img-card img {
+    height: 100px;
+    width: 115px;
+
+    border-radius: 15px;
+}
+
+.btns {
+}
+
+#follow-btn {
+    border: none;
+    border-radius: 50px;
+    padding: 14px;
+    width: 170px;
+    background: rgb(250,57,103);
+    background: linear-gradient(90deg, rgba(250,57,103,1) 7%, rgba(250,150,57,1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#follow-btn img {
+    height: 16px;
+}
+
+#message-btn {
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    width: 170px;
+    background: #FFEDD2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#message-btn img {
+    height: 18px;
+}

@@ -1,0 +1,171 @@
+body {
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+    background-color: rgb(216, 230, 241);
+}
+
+.generalBox {
+    background: rgb(255, 255, 255);
+    width: 491px;
+    height: 460px;
+    padding: 1px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.x {
+    background: #FFF;
+    color: grey;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 100%;
+
+    padding: 1px;
+    width: 35px;
+    height: 35px;
+
+    top: -40px;
+    left: 440px;
+    cursor: pointer;
+}
+
+.x:hover {
+    background: rgb(224, 224, 224);
+}
+
+.titleRef {
+    color: #20275f;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding-inline: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -58px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    width: 48px;
+    height: 40px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    position: relative;
+    top: -60px;
+
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textFeedback {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -80px;
+
+    color: rgba(0, 0, 0, 0.774);
+    padding-inline: 50px;
+}
+
+.bad {
+    font-weight: bold;
+    padding-right: 145px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.cool {
+    font-weight: bold;
+    padding-top: 2px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover {
+    background: #FF0099;
+    box-shadow: 0px 2px 5px gray;
+}
+
+hr {
+    width:75%;
+    border-color: rgba(173, 216, 230, 0.26);
+    position:relative;
+    top: -50px;
+}
+
+.userTerms {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -65px;
+    left: 50px;
+
+}
+
+.checkTerms {
+    width: 30px;
+    height: 30px;
+
+    appearance: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.548);
+    cursor: pointer;
+}
+
+label {
+    position: relative;
+    top: -13px;
+}
+
+input[type="checkbox"]:checked {
+    content: "✓";
+    color: white;
+    background: teal;
+    border-color: teal;
+}
+
+#next {
+    color: #20275f;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    padding: 30px;
+    margin-top: -35px;
+    margin-inline: 60px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#next:hover {
+    background: rgba(173, 216, 230, 0.63);
+    cursor: pointer;
+}

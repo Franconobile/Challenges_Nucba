@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+body {
+    background-color: rgb(216, 230, 241);
+}
+
+.generalBox {
+    background: white;
+    width: 859px;
+    height: 928px;
+    border-radius: 20px;
+
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header {
+    background: #203774;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 25px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.X {
+    font: normal 1em/1 Arial, sans-serif;
+    cursor: pointer;
+}
+
+.dateTime {
+    margin: 40px;
+    padding-inline: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.t1, .t2 {
+    color: gray;
+    margin: 10px;
+}
+
+.t1:hover, .t2:hover {
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.dateTime1 {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.today {
+    font-size: 15px;
+}
+
+.box1 {
+    display: flex;
+    margin: auto;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+    color: white;
+    background-color: #203774;
+    width: 500px;
+    height: 260px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top:30px;
+    
+}
+
+.odonto1, .odonto2 {
+    color:white;
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+    
+.horario1, .horario2 {
+    font-weight: lighter;
+    margin-left: 44px;
+    margin-top: 20px;
+}
+
+
+.textBox1 {
+    display: flex;
+    margin: 65px;
+    
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    color: white;
+    background-color: #203774;
+    width: 500px;
+    height: 260px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+#select1 {
+    padding: 15px;
+
+    position:relative;
+    bottom: 65px;
+    width: 130px;
+    height: 245px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+
+    background: #b4c8ff;
+    cursor: pointer;
+
+    top: -140px;
+    left: 150px;
+}
+
+.box2 {
+    display: flex;
+    margin: auto;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+    color: white;
+    background: #203774;
+    width: 500px;
+    height: 260px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: -150px;
+}
+
+.profile1 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -50px;
+    right: 130px;
+}
+
+.name1 {
+    position: relative;
+
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.textBox2 {
+    display: flex;
+    margin: 65px;
+    
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    color: white;
+    background-color: #203774;
+    width: 500px;
+    height: 260px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+#select2 {
+    padding: 15px;
+
+    position:relative;
+    bottom: 65px;
+    width: 130px;
+    height: 245px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+
+    background: #b4c8ff;
+    cursor: pointer;
+
+    top: -135px;
+    left: 150px;
+}
+
+.profile2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -50px;
+    right: 140px;
+}
+
+.name2 {
+    position: relative;
+
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.img1, .img2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    border: solid;
+    border-color: #4868BD;
+}
+
+#select1:hover {
+    background: white;
+}
+
+#select2:hover {
+    background: white;
+}
